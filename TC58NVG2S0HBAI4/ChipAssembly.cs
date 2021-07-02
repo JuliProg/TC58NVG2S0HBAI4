@@ -2,7 +2,7 @@ using NAND_Prog;
 using System;
 using System.ComponentModel.Composition;
 
-namespace TC58NVG0S3ETA00
+namespace TC58NVG2S0HBAI4
 {
     /*
      use the design :
@@ -36,8 +36,8 @@ namespace TC58NVG0S3ETA00
         ChipAssembly()
         {
             myChip.devManuf = "TOSHIBA";
-            myChip.name = "TC58NVG0S3ETA00";
-            myChip.chipID = "98D1901576";      // device ID - 98h D1h 90h 15h 76h (TC58NVG0S3ETA00.pdf page 49)
+            myChip.name = "TC58NVG2S0HBAI4";
+            myChip.chipID = "989C902636";      // device ID - 98h D1h 90h 15h 76h (TC58NVG2S0HBAI4.pdf page 49)
 
             myChip.width = Organization.x8;    // chip width - 8 bit
             myChip.bytesPP = 2048;             // page size - 2048 byte (2Kb)
@@ -138,9 +138,9 @@ namespace TC58NVG0S3ETA00
                 case 1:
                     str_result += "Device ";
                     if (bt == 0xF1)
-                        str_result += "is TC58NVG0S3ETA00";
+                        str_result += "is TC58NVG2S0HBAI4";
                     else
-                        str_result += "is not TC58NVG0S3ETA00";
+                        str_result += "is not TC58NVG2S0HBAI4";
                     str_result += Environment.NewLine;
                     break;
 

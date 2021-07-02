@@ -1,10 +1,10 @@
-![Create new chip](https://github.com/JuliProg/TC58NVG0S3ETA00/workflows/Create%20new%20chip/badge.svg?event=repository_dispatch)
-![ChipUpdate](https://github.com/JuliProg/TC58NVG0S3ETA00/workflows/ChipUpdate/badge.svg)
+![Create new chip](https://github.com/JuliProg/TC58NVG2S0HBAI4/workflows/Create%20new%20chip/badge.svg?event=repository_dispatch)
+![ChipUpdate](https://github.com/JuliProg/TC58NVG2S0HBAI4/workflows/ChipUpdate/badge.svg)
 # Join the development of the project ([list of tasks](https://github.com/users/JuliProg/projects/1))
 
 
-# TC58NVG0S3ETA00
-Implementation of the TC58NVG0S3ETA00 chip for the JuliProg programmer
+# TC58NVG2S0HBAI4
+Implementation of the TC58NVG2S0HBAI4 chip for the JuliProg programmer
 
 Dependency injection, DI based on MEF framework is used to connect the chip to the programmer.
 
@@ -23,8 +23,8 @@ Dependency injection, DI based on MEF framework is used to connect the chip to t
         ChipAssembly()
         {
             myChip.devManuf = "TOSHIBA";
-            myChip.name = "TC58NVG0S3ETA00";
-            myChip.chipID = "98D1901576";      // device ID - 98h D1h 90h 15h 76h (TC58NVG0S3ETA00.pdf page 49)
+            myChip.name = "TC58NVG2S0HBAI4";
+            myChip.chipID = "989C902636";      // device ID - 98h D1h 90h 15h 76h (TC58NVG2S0HBAI4.pdf page 49)
 
             myChip.width = Organization.x8;    // chip width - 8 bit
             myChip.bytesPP = 2048;             // page size - 2048 byte (2Kb)
@@ -80,6 +80,7 @@ Dependency injection, DI based on MEF framework is used to connect the chip to t
         
 ```
 </section>
+
 
 
 
